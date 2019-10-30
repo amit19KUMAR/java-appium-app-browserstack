@@ -12,8 +12,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class BrowserStackAndroid {
 
-    public static String accessKey = "BROWSERSTACK_USERNAME";
-    public static String userName = "BROWSERSTACK_ACCESS_KEY";
+    public static String userName = "BROWSERSTACK_USERNAME";
+    public static String accessKey = "BROWSERSTACK_ACCESS_KEY";
 
     public static void main(String args[]) throws MalformedURLException, InterruptedException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
